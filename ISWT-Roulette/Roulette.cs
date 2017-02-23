@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using ISWT_Roulette;
 
 namespace RouletteGame.Legacy
 {
-    public class Roulette
+    public class Roulette : IRoulette
     {
         private readonly List<Field> _fields;
         private Field _result;
